@@ -1,0 +1,12 @@
+[2024-02-11 04:32:11] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-11 04:32:11] [1] [INFO] TEST [CarinaDefaultProject - testLoginUser] STARTED at [13:32:11 2024-02-11]
+[2024-02-11 04:32:11] [1] [INFO] Starting driver session...
+[2024-02-11 04:32:12] [1] [ERROR] Failed to attach artifact reference 'app' to test run because it has not been started yet.
+[2024-02-11 04:32:22] [1] [INFO] Driver session started.
+[2024-02-11 04:32:23] [1] [INFO] PASS: element 'nextBtn' is clicked.
+[2024-02-11 04:32:27] [1] [INFO] PASS: keys 'Test user' are sent to element 'nameInputField'.
+[2024-02-11 04:32:29] [1] [INFO] PASS: keys 'XMLaTycvyC' are sent to element 'passwordInputField'.
+[2024-02-11 04:32:32] [1] [INFO] PASS: element 'maleRadioBtn' is clicked.
+[2024-02-11 04:32:35] [1] [INFO] PASS: element 'privacyPolicyCheckbox' is clicked.
+[2024-02-11 04:32:36] [1] [INFO] PASS: element 'loginBtn' is clicked.
+[2024-02-11 04:32:40] [1] [INFO] TEST [CarinaDefaultProject - testLoginUser] PASSED at [13:32:40 2024-02-11]

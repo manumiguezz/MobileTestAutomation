@@ -1,0 +1,27 @@
+[2024-02-11 04:18:18] [1] [INFO] 
+============= Basic configuration =============
+env=DEMO
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=https://www.gsmarena.com
+selenium_url=http://localhost:4723
+auto_screenshot=true
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+app=https://qaprosoft.s3-us-west-2.amazonaws.com/carinademoexample.apk
+deviceType=phone
+automationName=uiautomator2
+platformName=ANDROID
+udid=emulator-5554
+deviceName=Pixel 6 Pro
+===============================================
+
+[2024-02-11 04:18:19] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-11 04:18:24] [1] [INFO] [TestNG] Running:
+  C:\Users\manue\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+[2024-02-11 04:18:24] [1] [INFO] Set thread-count=1
+[2024-02-11 04:18:24] [1] [INFO] Set data-provider-thread-count=1
+[2024-02-11 04:18:24] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
