@@ -1,5 +1,6 @@
 package com.solvd.carina.demo;
 
+import com.solvd.carina.demo.manumiguezz.gui.carina.common.HomePageBase;
 import com.solvd.carina.demo.manumiguezz.gui.swaglabs.common.LoginPageBase;
 import com.solvd.carina.demo.manumiguezz.gui.swaglabs.common.MainPageBase;
 import com.zebrunner.carina.core.IAbstractTest;
@@ -26,5 +27,13 @@ public class MyMobileTest implements IMobileUtils, IAbstractTest {
         Assert.assertTrue(mainPageBase.isMenuButtonPresent());
         Assert.assertTrue(mainPageBase.isMenuButtonClickable());
         mainPageBase.clickMenuButton();
+    }
+
+    @Test
+    public void nextButtonTest() {
+        HomePageBase homePageBase = initPage(getDriver(), HomePageBase.class);
+
+        Assert.assertTrue(homePageBase.isNextButtonPresent());
+        homePageBase.clickNextButton();
     }
 }
